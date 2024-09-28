@@ -1,3 +1,3 @@
 # Project Overview:
 
-This project is a responsive website designed for a fictional headphone  company. It showcases a clean, modern design with key sections such as a navigation bar, a hero banner, product listings, an “About Us” section, and a contact form. The goal is to create a user-friendly and visually appealing experience that works well across all devices, including desktops, tablets, and smartphones.
+This project is a responsive website designed for a fictional headphone  company. It showcases a clean, modern design with key sections such as a navigation bar, a hero banner, product listings, an “About Us” section, and a contact form. The goal is to create a user-friendly and visually appealing experience that works well across all devices, including desktops, tablets, and smartphones...
