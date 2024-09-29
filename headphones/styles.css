@@ -60,6 +60,9 @@ nav > ul{
     gap:25px;
    
 }
+nav > ul > li:hover{
+    color:var(--button-color);
+}
 .hero-content{
   display:flex;
   flex-direction: column;
@@ -215,6 +218,7 @@ footer > div> ul >li > img{
     align-items: center;
     gap:50px;
   }
+  
   #toggle:checked ~ ul{
     display: none;
     height: auto;
