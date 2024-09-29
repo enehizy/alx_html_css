@@ -11,9 +11,21 @@
 :root{
     --button-color:#FF6565;
     --background-color:#071629;
+    --toggle-menu:none;
     
 }
-
+button {
+    -webkit-appearance: none;
+    border-radius: 0;
+    text-align: inherit;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    color: inherit;
+    font: inherit;
+  }
  
 ul{
     list-style-type: none;
@@ -185,13 +197,31 @@ footer > div> ul >li > img{
    }
    nav{
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     gap:50px;
+    position: relative;
    }
     nav > ul{
-        display: none;
+       
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+  .logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+  }
+  #toggle:checked ~ ul{
+    display: none;
+    height: auto;
     
+  
+  }
+  
     
     p,h2{
      text-wrap:wrap;
